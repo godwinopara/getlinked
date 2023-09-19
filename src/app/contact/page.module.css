@@ -1,0 +1,51 @@
+.contactWrapper{
+min-height: 100vh;
+width: 100vw;
+display: flex;
+align-items: center;
+
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.contactHeading{
+    margin-bottom: 17px;
+}
+
+.para1{
+    margin-bottom: 17px;
+}
+
+.para2{
+    margin-bottom:21px;
+}
+
+.para3{
+    margin-bottom: 22px;
+}
+
+.para4{
+    margin-bottom: 34px;
+}
+
+.formHeading{
+    margin-bottom: 34px;
+}
+
+
+.input{
+    display:block;
+    min-height: 47px;
+    width: 100%;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-radius: 4px;
+    outline: none;
+}
